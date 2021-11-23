@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Trekking_Fragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <FrameLayout
+                android:layout_width="362dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center|top">
+
+                <ImageButton
+                    android:id="@+id/imageButton4"
+                    android:layout_width="329dp"
+                    android:layout_height="320dp"
+                    android:layout_gravity="center|top"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/sender11"
+                    tools:ignore="SpeakableTextPresentCheck" />
+            </FrameLayout>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="367dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:text="@string/trek"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleY="1">
+
+            <com.google.android.gms.maps.MapView
+                android:id="@+id/mapView"
+                android:layout_width="101dp"
+                android:layout_height="381dp"
+                android:layout_gravity="top" />
+        </TableRow>
+
+    </TableLayout>
+
+</FrameLayout>
