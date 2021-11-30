@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1028792019704",
+    "project_id": "androidfirebase-ac709",
+    "storage_bucket": "androidfirebase-ac709.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1028792019704:android:686c12ca1f816d5a2e690d",
+        "android_client_info": {
+          "package_name": "com.example.intento11"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1028792019704-dpoea0qqno0329mqfj8bhpeuiqj3ru89.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1v3bHucsGo1pRBgxihf7dGdAMluWt-sU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1028792019704-dpoea0qqno0329mqfj8bhpeuiqj3ru89.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
